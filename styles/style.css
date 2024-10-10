@@ -3,3 +3,56 @@
     padding: 0;
     text-decoration: none;
 }
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: black;
+    padding: 20px 0;
+}
+
+.menu .logo a{
+    color: white;
+    font-size: 20px;
+}
+
+.menu .links a{
+    color: white;
+    padding: 10px;
+    transition: 0.6s;
+}
+.menu .links a:hover{
+    color: black;
+    background-color: #ffffff;
+    padding: 10px;
+}
+/*-----------------------*/
+.corpo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.tabela{
+    width: 70%;
+}
+
+.titulo{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
